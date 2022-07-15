@@ -1,6 +1,19 @@
 .navbar {
-    border: 1px solid;
-    width: 300px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+.logo {
+    color: #0D1730;
+}
+
+.list {
+    display: flex;
+    column-gap: 40px;
+}
+
+.link {
+    color: #0D1730;
 }
