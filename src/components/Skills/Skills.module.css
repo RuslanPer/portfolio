@@ -5,38 +5,10 @@
 
 .content {
     display: grid;
-    row-gap: 2rem;
+    row-gap: 32px;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
+    column-gap: 32px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-.icon {
-    margin-bottom: 20px;
-    width: 70px;
-    height: 70px;
-    background: #f4f4f4;
-    border-radius: 50%;
-}
-
-.name {
-    font-size: 20px;
-    margin-bottom: 16px;
-    font-weight: bold;
-}
-
-.description {
-    line-height: 1.2;
-    color: #748182;
-}

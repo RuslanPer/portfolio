@@ -38,3 +38,7 @@
     border-radius: 8px;
     transition: .3s;
 }
+
+textarea {
+    height: 200px;
+}

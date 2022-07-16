@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
 import styleContainer from '../../common/styles/Container.module.css'
-import Navbar from "../Navbar/Navbar";
+import Navbar from "./Navbar/Navbar";
 
 const Header = () => {
     return (

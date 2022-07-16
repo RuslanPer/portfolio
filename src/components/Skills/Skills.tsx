@@ -5,44 +5,24 @@ import sectionTitle from '../../common/styles/SectionTitle.module.css'
 import Skill from "./Skill/Skill";
 
 const Skills = () => {
+    const skills = [
+        {title: "HTML" , description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever"},
+        {title: "CSS" , description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever"},
+        {title: "JS" , description: "Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever"},
+    ]
+
+
     return (
         <section className={styles.skillsBlock}>
             <div className={styleContainer.container}>
                 <h2 className={sectionTitle.title}>Skills</h2>
 
                 <div className={styles.content}>
-                    <div className={styles.item}>
-                        <div className={styles.icon}></div>
 
-                        <div>
-                            <h3 className={styles.name}>HTML</h3>
-                            <span className={styles.description}>
-                                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-                            </span>
-                        </div>
-                    </div>
+                    {
+                        skills.map(el => <Skill title={el.title} description={el.description}/>)
+                    }
 
-                    <div className={styles.item}>
-                        <div className={styles.icon}></div>
-
-                        <div>
-                            <h3 className={styles.name}>CSS</h3>
-                            <span className={styles.description}>
-                                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-                            </span>
-                        </div>
-                    </div>
-
-                    <div className={styles.item}>
-                        <div className={styles.icon}></div>
-
-                        <div>
-                            <h3 className={styles.name}>JavaScript</h3>
-                            <span className={styles.description}>
-                                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-                            </span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

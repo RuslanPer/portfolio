@@ -8,12 +8,12 @@ type SkillsPropsType = {
 
 const Skill: React.FC<SkillsPropsType> = (props) => {
     return (
-        <div className={styles.skill}>
+        <div className={styles.item}>
             <div className={styles.icon}></div>
-            <h3>{props.title}</h3>
-            <p className={styles.description}>
-                {props.description}
-            </p>
+            <div>
+                <h3 className={styles.title}>{props.title}</h3>
+                <span className={styles.description}>{props.description}</span>
+            </div>
         </div>
     )
 }
