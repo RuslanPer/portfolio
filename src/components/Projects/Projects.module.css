@@ -12,3 +12,20 @@
     margin-right: auto;
 }
 
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and (max-width: 992px) {
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 576px) {
+    .projectsBlock {
+        padding: 20px 0;
+    }
+    .projects {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        column-gap: 16px;
+    }
+}

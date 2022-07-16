@@ -17,3 +17,16 @@
 .link {
     color: #0D1730;
 }
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and (max-width: 576px) {
+    .navbar {
+        justify-content: center;
+    }
+    .logo {
+        display: none;
+    }
+    .list {
+        column-gap: 20px;
+    }
+}

@@ -42,3 +42,19 @@
 textarea {
     height: 200px;
 }
+
+/* ===== MEDIA QUERIES=====*/
+@media screen and (max-width: 576px) {
+    .contactBlock {
+        padding: 30px 0;
+    }
+    .form {
+        padding-top: 0;
+    }
+    .input {
+        margin-bottom: 16px;
+    }
+    textarea {
+        height: 150px;
+    }
+}
