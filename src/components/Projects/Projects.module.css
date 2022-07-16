@@ -5,46 +5,10 @@
 
 .projects {
     display: grid;
-    row-gap: 2rem;
+    row-gap: 32px;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
+    column-gap: 32px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-
-.img {
-    margin-bottom: 20px;
-    width: 100%;
-    height: 250px;
-    background: #f4f4f4;
-}
-
-.name {
-    font-size: 20px;
-    margin-bottom: 16px;
-    font-weight: bold;
-}
-
-.description {
-    display: block;
-    margin-bottom: 12px;
-    line-height: 1.2;
-    color: #748182;
-}
-
-.button {
-    cursor: pointer;
-    display: block;
-    border: none;
-    padding: 10px;
-    background-color: #2F9BF4;
-}
