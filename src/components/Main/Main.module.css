@@ -1,3 +1,28 @@
 .mainBlock{
     background-color: floralwhite;
+    padding: 50px 0;
+}
+
+.main {
+    display: grid;
+    row-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: initial;
+    padding-top: 2rem;
+}
+
+.img {
+    justify-self: center;
+}
+
+.img img {
+    width: 300px;
+    border-radius: 0.5rem;
+}
+
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
 }
