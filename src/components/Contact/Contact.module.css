@@ -1,0 +1,40 @@
+.contactBlock {
+    padding: 50px 0;
+    background-color: rgba(255,179,18,0.48);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 360px;
+    padding-top: 32px;
+}
+
+.input {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1.5px solid #0D1730;
+    outline: none;
+    margin-bottom: 32px;
+}
+
+.button {
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+    background-color: #3E6FF4;
+    color: #fff;
+    padding: 12px 40px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: .3s;
+}
