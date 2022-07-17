@@ -9,14 +9,12 @@ const Contact = () => {
             <div className={styleContainer.container}>
                 <h2 className={sectionTitle.title}>Contact</h2>
 
-                <div className={styles.contact}>
-                    <form action="" className={styles.form}>
-                        <input type="text" placeholder="Name" className={styles.input}/>
-                            <input type="mail" placeholder="Email" className={styles.input}/>
-                                <textarea className={styles.input}></textarea>
-                                <input type="button" value="Enviar"className={styles.button}/>
-                    </form>
-                </div>
+                <form action="" className={styles.form}>
+                    <input type="text" placeholder="Name" className={styles.input}/>
+                    <input type="mail" placeholder="Email" className={styles.input}/>
+                    <textarea className={styles.input}></textarea>
+                    <input type="button" value="Enviar" className={styles.button}/>
+                </form>
 
             </div>
         </section>
